@@ -88,3 +88,200 @@ h1 {
 .image ul li a {
   color: #505f79;
 }
+.sectiontemplate {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.img1 {
+  display: block;
+  margin: auto auto 0 auto;
+  width: 90%;
+  padding-top: 2rem;
+}
+
+.list1 {
+  display: flex;
+}
+
+.list2 {
+  display: flex;
+}
+
+.list3 {
+  display: flex;
+}
+
+.Section2Text {
+  padding: 6rem 0 3rem 3rem;
+}
+
+.special {
+  color: #7a869a;
+}
+
+.can {
+  list-style: none;
+}
+
+p {
+  color: #344563;
+  margin-top: 1rem;
+  line-height: 2rem;
+  font-size: 19px;
+  width: 80%;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #6070ff;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #6070ff;
+}
+
+.Section3Text {
+  padding: 6rem 0 3rem 3rem;
+}
+
+.SectionText {
+  padding: 3rem 0 3rem 3rem;
+}
+
+h2 {
+  color: #172b4d;
+  font-size: 35px;
+  margin: -2rem 0 1rem 0;
+}
+
+.section1template {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.img2 {
+  display: block;
+  margin: auto auto 0 auto;
+  width: 90%;
+  padding-top: 4rem;
+  order: 1;
+}
+
+.Section1Text {
+  padding: 6rem 0 3rem 3rem;
+}
+
+.sectiondiv {
+  background-color: white;
+  background-size: 100%;
+  border: 2px solid white;
+  border-radius: 0 50px 0 0;
+  margin-top: 4rem;
+}
+
+.body-text {
+  padding: 6rem 0 3rem 3rem;
+}
+
+.b-text {
+  color: #344563;
+  font-size: 25px;
+}
+
+.icon2 ul {
+  margin-top: 2rem;
+  display: flex;
+  list-style: none;
+}
+
+.icon2 ul li {
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.icon2 ul li a {
+  color: black;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  border-radius: 15px;
+  margin-top: 3rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding-left: 2rem;
+}
+
+.lang {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.language-icon {
+  padding-bottom: 7rem;
+}
+
+.img4 {
+  padding-right: 6rem;
+}
+
+.frame-right,
+.skill-right,
+.last-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frame,
+.skill {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+hr {
+  width: 95%;
+  margin-left: 1rem;
+}
+
+.img3 {
+  padding-right: 6rem;
+}
+
+.img5 {
+  padding-right: 6rem;
+}
+
+.last-div {
+  padding: 0 2rem 0 2rem;
+}
+
+.tech {
+  padding: 0 2rem 0 1.5rem;
+}
+
+.prog {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 0.5rem;
+  padding: 0.5rem;
+}
