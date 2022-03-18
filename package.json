@@ -4,14 +4,15 @@
   "description": "> This is a project to display \"Micro-Version-SKeleton of POrtfolio-Page\". This content's Mobile-Version-SKeleton of POrtfolio-Page html tag, style.css, linters and readme.md files.",
   "main": "index.js",
   "dependencies": {
+    "postcss": "^8.4.12"
+  },
+  "devDependencies": {
     "hint": "^6.1.10",
-    "postcss": "^8.4.12",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
-    "stylelint-scss": "^3.21.0",
-    "stylelint-csstree-validator": "^1.9.0"
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
