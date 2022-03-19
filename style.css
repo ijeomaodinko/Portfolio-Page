@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #e5e5e5;
   font-family: sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 3rem;
   text-decoration: none;
   font-size: 25px;
   color: #6070ff;
@@ -60,7 +60,7 @@ h1 {
   font-size: 16px;
   margin: 1rem 0 0 2rem;
   width: 70%;
-  line-height: 24 px;
+  line-height: 2.5rem;
 }
 
 .about a {
@@ -80,14 +80,59 @@ h1 {
   margin: 1.5rem 0 6rem 2rem;
 }
 
+.list1 li {
+  margin: 1rem 2rem 0 0;
+}
+
+.list2 li {
+  margin: 1.5rem 0.3rem 0 0;
+  border: 2px solid #dadbff;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  list-style: none;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #6070ff;
+}
+
+.list3 li {
+  margin: 1rem 0.3rem 0 0;
+  border: 4px solid #dadbff;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  list-style: none;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #6070ff;
+}
+
+.let-connect a {
+  text-decoration: none;
+  color: #7f8cff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.languages li {
+  list-style: none;
+}
+
+.frame-right li,
+.last-icons li,
+.skill-right li {
+  list-style: none;
+}
+
 .image ul li {
   margin-right: 2rem;
   font-size: 2rem;
+  color: #505f79;
 }
 
 .image ul li a {
   color: #505f79;
 }
+
 .sectiontemplate {
   display: block;
   margin: 4rem auto auto auto;
