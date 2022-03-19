@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-  margin: 1rem 0 0 3rem;
+  margin: 1rem 0 0 2rem;
   text-decoration: none;
   font-size: 25px;
   color: #6070ff;
@@ -288,6 +288,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .frame,
