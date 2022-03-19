@@ -150,14 +150,18 @@ h1 {
 
 .list1 {
   display: flex;
+  font-size: 25px;
 }
 
 .list2 {
   display: flex;
+  font-size: 25px;
 }
 
 .list3 {
   display: flex;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .Section2Text {
@@ -289,6 +293,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 29px;
 }
 
 .frame,
