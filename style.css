@@ -193,6 +193,10 @@ p {
   background-color: #ffffff;
 }
 
+.btn:hover {background-color: #7f8cff; color: white;}
+.btn:active {background-color: darkblue; color: white;}
+.btn:disabled {background-color: white; color: black;}
+
 .Section3Text {
   padding: 6rem 0 3rem 3rem;
 }
