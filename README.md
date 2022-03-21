@@ -1,6 +1,6 @@
 # Portfolio-Page
 
-> This is a project to display "Micro-Version-SKeleton of POrtfolio-Page". This content's Mobile-Version-SKeleton of POrtfolio-Page html tag, style.css, linters and readme.md files. 
+> This is a project to display "Micro-Version-body of POrtfolio-Page". This content's Mobile-Version-body of POrtfolio-Page html tag, style.css, linters and readme.md files. 
 
 ## Built With
 - HTML
@@ -20,7 +20,7 @@
     VS code
 
 ### Usage
-    A project to display mobile version skeleton 
+    A project to display mobile version body 
 
 ## Author
 👤 **IJeoma Odinko**
