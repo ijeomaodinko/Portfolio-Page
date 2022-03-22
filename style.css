@@ -159,7 +159,7 @@ h1 {
 }
 
 .list3 {
-  display: flex;
+  float: left;
 }
 
 .Section2Text {
