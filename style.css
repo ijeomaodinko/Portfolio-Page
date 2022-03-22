@@ -392,10 +392,9 @@ hr {
   color: #fff;
   text-align: center;
   margin: auto;
-
 }
 
-.username {
+/* .username {
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -408,4 +407,11 @@ hr {
   height: 18px;
   left: 16;
   right: 38;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
