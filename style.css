@@ -415,3 +415,11 @@ form {
   justify-content: flex-start;
   align-items: center;
 }
+
+.form-btn {
+  padding: 1em;
+  color: #6070ff;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
