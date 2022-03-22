@@ -355,3 +355,70 @@ hr {
   float: left;
 }
 
+.sectionf {
+  background-image: url('img/contact-shapes.svg');
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-size: 100%;
+  border: 2px solid #6070ff;
+  border-radius: 50px 0 0 0;
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+} 
+
+.SectionfText {
+  padding: 6rem 0 3rem 3rem;
+}
+
+.frm{
+/*padding: 6rem 0 3rem 3rem;*/
+font-family: Poppins color: #ffffff;
+font-size: 40px;
+font-style: normal;
+font-weight: 700 bold;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+  }
+.center {
+position: static;
+width:429px;
+height: 102px;
+left: 116px;
+top: 68px;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+/*flex: none;
+margin: 12px 0px;
+order: 1;
+flex-grow: 0;*/
+
+color: #ffffff;
+}
+
+.username {
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+display: flex;
+align: center;
+position: absolute;
+height: 18px;
+left: 16;
+right: 38;
+}
+
+.username {
+  align-content: center;
+}
