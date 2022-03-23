@@ -355,16 +355,18 @@ hr {
   background-image: url("img/contact-shapes.svg");
   background-repeat: no-repeat;
   background-color: #6070ff;
-  background-size: 100%;
+  background-size: 56.9%;
   border: 2px solid #6070ff;
-  border-radius: 50px 0 0 0;
+  border-radius: 90px 0 0 0;
   display: block;
   margin: 4rem auto auto 4rem;
-  width: 550px;
+  width: 375px;
+  height: 766px;
+  background-position: 160px;
 }
 
 .SectionfText {
-  padding: 6rem 0 3rem 3rem;
+  padding: 6rem 0 3rem 0.5rem;
 }
 
 .frm {
@@ -374,7 +376,9 @@ hr {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 12px;
+  margin-left: 69px;
 }
 
 .center {
@@ -385,7 +389,9 @@ hr {
   line-height: 28px;
   color: #fff;
   text-align: center;
-  margin: 0 0 0 49px;
+  margin: 0 0 0 26px;
+  margin-bottom: 14px;
+  width: 300px;
 }
 
 form {
@@ -400,6 +406,8 @@ form {
   color: #6070ff;
   border-radius: 8px;
   font-weight: 600;
+  width: 140px;
+  height: 48px;
 }
 
 .form-btn:hover {
@@ -428,6 +436,7 @@ button:hover {
   line-height: 24px;
   font-size: 15px;
   font-weight: 400;
+  padding: 8px;
 }
 
 .username {
@@ -436,6 +445,7 @@ button:hover {
   border-radius: 8px;
   border: 1px;
   border-color: #cfd8dc;
+  padding: 8px;
 }
 
 .email {
@@ -444,8 +454,21 @@ button:hover {
   border-radius: 8px;
   border: 1px;
   border-color: #cfd8dc;
+  padding: 8px;
 }
 
 .imgf {
-  margin: 0 0 0 8rem;
+  margin: 0 0 0 6rem;
+}
+
+.form1 {
+  display: flex;
+}
+
+.form2 {
+  display: flex;
+}
+
+.form3 {
+  display: flex;
 }
