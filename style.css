@@ -143,7 +143,30 @@ h1 {
   border-radius: 50px;
 }
 
+.sectiontemplate1 {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.sectiontemplate2 {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
 .img1 {
+  display: block;
+  margin: auto auto 0 auto;
+  width: 90%;
+  padding-top: 2rem;
+}
+
+.img7 {
   display: block;
   margin: auto auto 0 auto;
   width: 90%;
@@ -160,6 +183,11 @@ h1 {
 
 .list3 {
   display: flex;
+}
+
+.big-text {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .Section2Text {
@@ -222,7 +250,7 @@ h2 {
   margin: -2rem 0 1rem 0;
 }
 
-.section1template {
+.sectiontemplate3 {
   display: block;
   margin: 4rem auto auto auto;
   width: 90%;
@@ -256,7 +284,8 @@ h2 {
 
 .b-text {
   color: #344563;
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .icon2 ul {
@@ -278,9 +307,10 @@ h2 {
   display: flex;
   align-items: center;
   background-color: #f7f7f9;
-  border-radius: 15px;
+  border: 2px solid #ebebff;
+  border-radius: 0.5rem;
   margin-top: 3rem;
-  padding: 0.5rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 h3 {
@@ -290,6 +320,7 @@ h3 {
 .lang {
   font-size: 20px;
   font-weight: 600;
+  padding-left: 2rem;
 }
 
 .language-icon {
@@ -306,8 +337,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 29px;
 }
 
 .frame,
@@ -330,6 +359,19 @@ hr {
 .img5 {
   padding-right: 6rem;
 }
+
+.imgd1 {
+  display: none;
+}
+
+.imgd2 {
+  display: none;
+}
+
+.imgd3 {
+  display: none;
+}
+
 
 .last-div {
   padding: 0 2rem 0 2rem;
