@@ -514,3 +514,140 @@ button:hover {
 .form3 {
   display: flex;
 }
+
+@media screen and (min-width: 768px) {
+  .first-list {
+    display: flex;
+    list-style: none;
+    padding-right: 4rem;
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+
+  .first-list li {
+    padding-left: 2rem;
+  }
+
+  .first-list li a {
+    text-decoration: none;
+  }
+
+  .union {
+    display: none;
+  }
+
+  .sectiontemplate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 4;
+  }
+
+  .sectiontemplate1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 5;
+  }
+
+  .sectiontemplate2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 2;
+  }
+
+  .sectiontemplate3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 3;
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  .img7 {
+    display: none;
+  }
+
+  .imgd1 {
+    display: block;
+    width: 95%;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .img1,
+  .img2 {
+    display: none;
+  }
+
+  .imgd3,
+  .imgd2 {
+    display: block;
+    width: 95%;
+    padding: 1rem 0 1rem 0.2rem;
+    order: 1;
+  }
+
+  .sectiondiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 100%;
+    margin: 4.5rem 0 0 0;
+    background-color: white;
+    border-radius: 0 50px 0 0;
+    order: 6;
+  }
+
+  .icon-flex {
+    display: flex;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    width: 6rem;
+  }
+
+  .last-div {
+    padding-top: 6rem;
+  }
+
+  h3 {
+    padding-right: 2rem;
+  }
+
+  .center {
+    margin: auto;
+    width: 75%;
+  }
+
+  .form-btn {
+    display: block;
+    margin: 2rem auto 0 auto;
+  }
+
+  .sectionf { order: 7; }
+}
