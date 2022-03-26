@@ -441,6 +441,9 @@ button:hover {
   font-weight: 400;
   padding: 8px;
 }
+.frm + p:hover {
+  transform: translate(10px);
+}
 
 .username {
   height: 48px;
