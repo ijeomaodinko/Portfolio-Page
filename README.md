@@ -1,6 +1,6 @@
 # Portfolio-Page
 
-> This is a project to display "Micro-Version-body of POrtfolio-Page". This content's Mobile-Version-body of POrtfolio-Page html tag, style.css, linters and readme.md files. 
+> This is a project to display "Micro-Version-body of POrtfolio-Page". This content's desktop version of POrtfolio-Page html tag, style.css, linters and readme.md files. 
 
 ## Built With
 - HTML
