@@ -510,14 +510,17 @@ button:hover {
 
 .form1 {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .form2 {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .form3 {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
