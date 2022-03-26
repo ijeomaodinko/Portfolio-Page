@@ -40,25 +40,26 @@ body {
 }
 
 .logo {
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 3rem;
   text-decoration: none;
   font-size: 25px;
   color: #6070ff;
 }
 
 .union {
-  margin: 1rem 3rem 0 0;
+  display: flex;
+  margin: 1rem 2rem 0 0;
 }
 
 h1 {
   font-size: 40px;
-  margin: 5rem 0 0 2rem;
+  margin: 5rem 0 0 4rem;
 }
 
 .header-text {
   color: #344563;
-  font-size: 16px;
-  margin: 1rem 0 0 2rem;
+  font-size: 25px;
+  margin: 1rem 0 0 4rem;
   width: 70%;
   line-height: 2.5rem;
 }
@@ -71,13 +72,13 @@ h1 {
 }
 
 .about {
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 0 4rem;
 }
 
 .image ul {
   display: flex;
   list-style: none;
-  margin: 1.5rem 0 6rem 2rem;
+  margin: 1.5rem 0 6rem 4rem;
 }
 
 .list1 li {
@@ -85,7 +86,7 @@ h1 {
 }
 
 .list2 li {
-  padding: 4px 12px;
+  padding: 0.3rem 0.6rem;
   margin: 1rem 0.6rem 0 0;
   border: 2px solid #dadbff;
   background-color: #ebebff;
@@ -119,11 +120,13 @@ h1 {
   list-style: none;
 }
 
+
 .frame-right li,
 .last-icons li,
 .skill-right li {
-  list-style: none;
+  list-style: none; 
 }
+  
 
 .image ul li {
   margin-right: 2rem;
@@ -277,6 +280,7 @@ h2 {
   border-radius: 0 50px 0 0;
   margin-top: 4rem;
   padding-bottom: 113px;
+  width:100%
 }
 
 .body-text {
@@ -307,7 +311,7 @@ h2 {
 .languages {
   display: flex;
   align-items: center;
-  background-color: #dadbff;
+  background-color: #f7f7f9;
   border: 2px solid #ebebff;
   border-radius: 0.5rem;
   margin-top: 3rem;
@@ -380,6 +384,7 @@ hr {
 }
 
 .tech {
+  display:flex;
   padding: 0 2rem 0 1.5rem;
 }
 
@@ -644,6 +649,7 @@ button:hover {
     padding-top: 6rem;
   }
 
+
   h3 {
     padding-right: 2rem;
   }
@@ -659,7 +665,6 @@ button:hover {
   }
 
   .sectionf { order: 7; }
-}
 
 img {
   display: none;
@@ -667,4 +672,6 @@ img {
 
 .img.imgf {
   display: none;
+}
+
 }
