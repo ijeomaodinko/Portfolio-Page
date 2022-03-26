@@ -475,3 +475,7 @@ button:hover {
 .form3 {
   display: flex;
 }
+
+img.img1:hover {
+  transform: scale(1.1);
+}
