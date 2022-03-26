@@ -196,6 +196,7 @@ p {
 .btn:hover {
   background-color: #7f8cff;
   color: white;
+  transition: 0.75s;
 }
 
 .btn:active {
@@ -413,6 +414,7 @@ form {
 .form-btn:hover {
   background-color: #7f8cff;
   color: white;
+  transition: 0.75s;
 }
 
 .form-btn:active {
@@ -422,8 +424,9 @@ form {
 
 button:hover {
   background: #6070ff;
-  box-shadow: 8px 16px  rgba(64, 83, 252, 0.24);
+  box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
+  transition: 0.75s;
 }
 
 .textarea {
