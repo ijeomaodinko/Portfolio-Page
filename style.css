@@ -40,25 +40,26 @@ body {
 }
 
 .logo {
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 3rem;
   text-decoration: none;
   font-size: 25px;
   color: #6070ff;
 }
 
 .union {
-  margin: 1rem 3rem 0 0;
+  display: flex;
+  margin: 1rem 2rem 0 0;
 }
 
 h1 {
   font-size: 40px;
-  margin: 5rem 0 0 2rem;
+  margin: 5rem 0 0 4rem;
 }
 
 .header-text {
   color: #344563;
-  font-size: 16px;
-  margin: 1rem 0 0 2rem;
+  font-size: 25px;
+  margin: 1rem 0 0 4rem;
   width: 70%;
   line-height: 2.5rem;
 }
@@ -71,13 +72,13 @@ h1 {
 }
 
 .about {
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 0 4rem;
 }
 
 .image ul {
   display: flex;
   list-style: none;
-  margin: 1.5rem 0 6rem 2rem;
+  margin: 1.5rem 0 6rem 4rem;
 }
 
 .list1 li {
@@ -85,7 +86,7 @@ h1 {
 }
 
 .list2 li {
-  padding: 4px 12px;
+  padding: 0.3rem 0.6rem;
   margin: 1rem 0.6rem 0 0;
   border: 2px solid #dadbff;
   background-color: #ebebff;
@@ -143,7 +144,30 @@ h1 {
   border-radius: 50px;
 }
 
+.sectiontemplate1 {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.sectiontemplate2 {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
 .img1 {
+  display: block;
+  margin: auto auto 0 auto;
+  width: 90%;
+  padding-top: 2rem;
+}
+
+.img7 {
   display: block;
   margin: auto auto 0 auto;
   width: 90%;
@@ -160,6 +184,11 @@ h1 {
 
 .list3 {
   display: flex;
+}
+
+.big-text {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .Section2Text {
@@ -222,7 +251,7 @@ h2 {
   margin: -2rem 0 1rem 0;
 }
 
-.section1template {
+.sectiontemplate3 {
   display: block;
   margin: 4rem auto auto auto;
   width: 90%;
@@ -248,6 +277,8 @@ h2 {
   border: 2px solid white;
   border-radius: 0 50px 0 0;
   margin-top: 4rem;
+  padding-bottom: 113px;
+  width: 100%;
 }
 
 .body-text {
@@ -256,7 +287,8 @@ h2 {
 
 .b-text {
   color: #344563;
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .icon2 ul {
@@ -278,9 +310,10 @@ h2 {
   display: flex;
   align-items: center;
   background-color: #f7f7f9;
-  border-radius: 15px;
+  border: 2px solid #ebebff;
+  border-radius: 0.5rem;
   margin-top: 3rem;
-  padding: 0.5rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 h3 {
@@ -290,6 +323,7 @@ h3 {
 .lang {
   font-size: 20px;
   font-weight: 600;
+  padding-left: 2rem;
 }
 
 .language-icon {
@@ -306,8 +340,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 29px;
 }
 
 .frame,
@@ -324,11 +356,25 @@ hr {
 }
 
 .img3 {
-  padding-right: 6rem;
+  display: flex;
+  padding-right: 2rem;
 }
 
 .img5 {
-  padding-right: 6rem;
+  display: flex;
+  padding-right: 2rem;
+}
+
+.imgd1 {
+  display: none;
+}
+
+.imgd2 {
+  display: none;
+}
+
+.imgd3 {
+  display: none;
 }
 
 .last-div {
@@ -336,6 +382,7 @@ hr {
 }
 
 .tech {
+  display: flex;
   padding: 0 2rem 0 1.5rem;
 }
 
@@ -352,21 +399,22 @@ hr {
 }
 
 .sectionf {
-  background-image: url("img/contact-shapes.svg");
-  background-repeat: no-repeat;
-  background-color: #6070ff;
-  background-size: 56.9%;
-  border: 2px solid #6070ff;
-  border-radius: 90px 0 0 0;
-  display: block;
-  margin: 4rem auto auto 4rem;
-  width: 375px;
-  height: 766px;
-  background-position: 160px;
+  background-color: #fff;
+  margin-top: -8px;
 }
 
 .SectionfText {
-  padding: 6rem 0 3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/contact-shapes.svg);
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-size: contain;
+  padding: 24px;
+  background-position-x: 100%;
+  border-radius: 5rem 0 0 0;
 }
 
 .frm {
@@ -378,7 +426,7 @@ hr {
   line-height: 52px;
   margin-top: 26px;
   margin-bottom: 12px;
-  margin-left: 69px;
+  margin-left: 68px;
 }
 
 .center {
@@ -458,17 +506,168 @@ button:hover {
 }
 
 .imgf {
+  display: flex;
+  justify-content: center;
   margin: 0 0 0 6rem;
 }
 
 .form1 {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .form2 {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .form3 {
   display: flex;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    display: flex;
+    list-style: none;
+    padding-right: 4rem;
+    font-size: 25px;
+    margin-top: 1rem;
+    color: #6070ff;
+  }
+
+  .list li {
+    padding-left: 2rem;
+  }
+
+  .list li a {
+    text-decoration: none;
+  }
+
+  .union {
+    display: none;
+  }
+
+  .sectiontemplate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 4;
+  }
+
+  .sectiontemplate1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 5;
+  }
+
+  .sectiontemplate2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 2;
+  }
+
+  .sectiontemplate3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 90%;
+    margin: 4.5rem 0 0 4rem;
+    background-color: white;
+    border-radius: 50px;
+    order: 3;
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  .img7 {
+    display: none;
+  }
+
+  .imgd1 {
+    display: block;
+    width: 95%;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .img1,
+  .img2 {
+    display: none;
+  }
+
+  .imgd3,
+  .imgd2 {
+    display: block;
+    width: 95%;
+    padding: 1rem 0 1rem 0.2rem;
+    order: 1;
+  }
+
+  .sectiondiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    width: 100%;
+    margin: 4.5rem 0 0 0;
+    background-color: white;
+    border-radius: 0 50px 0 0;
+    order: 6;
+  }
+
+  .icon-flex {
+    display: flex;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    width: 6rem;
+  }
+
+  .last-div {
+    padding-top: 6rem;
+  }
+
+  h3 {
+    padding-right: 2rem;
+  }
+
+  .center {
+    margin: auto;
+    width: 75%;
+  }
+
+  .form-btn {
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .sectionf { order: 7; }
+
+  img {
+    display: none;
+  }
+
+  .img.imgf {
+    display: none;
+  }
 }
