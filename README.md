@@ -1,6 +1,5 @@
 # Portfolio-Page
-
-- Website: https://ijeomaodinko.github.io/Portfolio-Page/
+Website:  https://ijeomaodinko.github.io/Portfolio-Page/
 
 > This is a project to display "Micro-Version-body of POrtfolio-Page". This content's desktop version of POrtfolio-Page html tag, style.css, linters and readme.md files. 
 
@@ -25,7 +24,7 @@
     A project to display mobile version body 
 
 ## Author
-👤 **IJeoma Odinko**
+👤 **Ijeoma Odinko**
 - GitHub: [@ijeomaese](https://github.com/ijeomaese)
 - Twitter: [@iodinko](https://twitter.com/Iodinko)
 - LinkedIn: [Ijeoma Odinko](https://www.linkedin.com/in/ijeoma-odinko)
