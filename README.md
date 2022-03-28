@@ -27,7 +27,7 @@
 - GitHub: [@ijeomaese](https://github.com/ijeomaese)
 - Twitter: [@iodinko](https://twitter.com/Iodinko)
 - LinkedIn: [Ijeoma Odinko(https://www.linkedin.com/in/ijeoma-odinko)
-- website:  https://ijeomaodinko.github.io/Portfolio-Page/
+- Website:  https://ijeomaodinko.github.io/Portfolio-Page/
 
 
 ## 🤝 Contributing
