@@ -66,7 +66,7 @@ h1 {
 
 .about a {
   text-decoration: none;
-  color: #7f8cff;
+  color: #344563; 
   font-size: 18px;
   font-weight: 600;
 }
@@ -94,7 +94,7 @@ h1 {
   list-style: none;
   font-size: 12px;
   font-weight: bolder;
-  color: #6070ff;
+  color: #172b4d;
 }
 
 .list3 li {
@@ -106,12 +106,12 @@ h1 {
   list-style: none;
   font-size: 12px;
   font-weight: bolder;
-  color: #6070ff;
+  color: #172b4d;
 }
 
 .let-connect a {
   text-decoration: none;
-  color: #7f8cff;
+  color: #172b4d;
   font-size: 18px;
   font-weight: 600;
 }
@@ -435,7 +435,7 @@ hr {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  color: #fff;
+  color: #172b4d;
   text-align: center;
   margin: 0 0 0 26px;
   margin-bottom: 14px;
