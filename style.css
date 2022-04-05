@@ -572,6 +572,11 @@ button:hover {
     display: none;
   }
 
+  .up-menu a {
+    color: #344563;
+  }
+
+
   .list {
     display: flex;
     list-style: none;
