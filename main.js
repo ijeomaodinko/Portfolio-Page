@@ -7,6 +7,10 @@ bars.addEventListener("click", () => {
     popUp.classList.add('pop-up')
 })
 
+popUp.addEventListener("click", () => { 
+    popUp.classList.remove('pop-up')
+}) 
+
 closeMenu.addEventListener("click", () => {
     popUp.style.display = "none"
 })
