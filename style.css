@@ -26,7 +26,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+
+  /* position: fixed; */
   top: 0;
   width: 100%;
   background-color: white;
@@ -73,6 +74,10 @@ h1 {
 
 .about {
   margin: 2rem 0 0 4rem;
+}
+
+.up-menu a {
+  color: #fff;
 }
 
 .image ul {
@@ -508,7 +513,8 @@ button:hover {
 .imgf {
   display: flex;
   justify-content: center;
-  margin: 0 0 0 6rem;
+
+  /* margin: 0 0 0 1rem; */
 }
 
 .form1 {
@@ -526,7 +532,50 @@ button:hover {
   margin-bottom: 1rem;
 }
 
+/* mobile-menu */
+
+.pop-up {
+  display: flex;
+  background-color: rgba(52, 65, 161, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  /* mix-blend-mode: multiply; */
+  flex-direction: column;
+  position: absolute;
+  color: #fff;
+  gap: 25px;
+  padding-left: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  list-style: none;
+  line-height: 44px;
+}
+
+.close {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 3.5rem;
+  padding-left: 260px;
+  color: #f5f0f0;
+  margin-top: 16px;
+}
+
 @media screen and (min-width: 768px) {
+  .close {
+    display: none;
+  }
+
+  .up-menu a {
+    color: #344563;
+  }
+
   .list {
     display: flex;
     list-style: none;
