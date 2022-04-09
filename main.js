@@ -142,3 +142,16 @@ window.onclick = function clickOut(event) {
     clearModal();
   }
 };
+
+// validate form
+const contactForm = document.querySelector('#contact-form');
+const email = document.getElementById('email');
+const messageError = document.getElementById('email-error');
+
+contactForm.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    messageError.innerText = 'Your message was not sent, you need to have the email address, all in small letters';
+    messageError.style.fontSize = '17px';
+  }
+});
