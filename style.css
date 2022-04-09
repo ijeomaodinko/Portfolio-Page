@@ -107,7 +107,6 @@ h1 {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
 .modal-content {
   background-color: #fefefe;
   margin: 2rem auto;
@@ -141,7 +140,7 @@ h1 {
 
 .toggle-p {
   max-width: 100%;
-  width: 409px;
+  width: 398px;
   margin: 1rem 0 1rem 0.5rem;
 }
 
