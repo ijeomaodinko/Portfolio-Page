@@ -155,3 +155,38 @@ contactForm.addEventListener('submit', (e) => {
     messageError.style.fontSize = '17px';
   }
 });
+
+//Portfolio to store data in a browser
+
+const nameInput = document.getElementById('username');
+const emailInput = document.getElementById('email');
+const textInput = document.getElementById('message');
+
+function storeFormDataLocally() {
+   const formData = {
+     name: nameInput.value,
+     email: emailInput.value,
+     comment: textInput.value,
+   };
+   localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+nameInput.addEventListener('input', () => {
+   storeFormDataLocally();
+});
+
+emailInput.addEventListener('input', () => {
+  storeFormDataLocally();
+});
+
+textInput.addEventListener('input', () => {
+  storeFormDataLocally();
+});
+
+window.addEventListener('load', () => {
+  const data = localStorage.getItem('formData');
+  const parseData =JSON.parse(data);
+  nameInput.value = parseData.name;
+  emailInput.value = parseData.email;
+  textInput.value = parseData.comment;
+});
