@@ -12,11 +12,17 @@
     <title>Portfolio-Page</title>
   </head>
   <body>
+
     <header class="flex">
       <a class="logo" href="#">My logo</a>
       <nav class="nav1">
-        <img class="union" src="img/Union.svg" alt="My logo" />
-        <ul class="list">
+        <img class="union"  id="pop" src="img/Union.svg" alt="My logo" />
+
+
+        <ul class="list up-menu">
+          <li class="close">
+            &times;
+          </li>
           <li>
             <a href="#Portfolio">Portfolio</a>
           </li>
@@ -27,8 +33,14 @@
             <a href="#Contact">Contact</a>
           </li>
         </ul>
+
+
+
+
       </nav>
     </header>
+
+
     <main id="portfolio">
       <section id="elaborate">
         <div class="explain">
@@ -73,8 +85,9 @@
           </ul>
         </div>
       </section>
+      <div id="projectcards">
       <!--section 1 of the portfolio card starts-->
-      <section class="sectiontemplate">
+      <!-- <section class="sectiontemplate">
         <img class="img1" src="img/Portfolio1.svg" alt="Tanner Christerner" />
         <img class="imgd1" src="img/DesktopPortfolio1.svg" alt="Tanner Christerner" />
         <div class="Section2Text">
@@ -95,9 +108,40 @@
           </ul>
           <button class="btn">See project</button>
         </div>
-      </section>
+      </section> -->
+      <!-- section for the modal card starts -->
+      <!-- <div id="myModal" class="modal">
+        <div class="modal-container">
+          <div class="modal-content">
+            <div class="modal-title">
+              <div class="dflex">
+                <h1 id="modalTitle">Title</h1>
+
+                <span class="xp">&times;</span>
+                </div>
+
+              <div id="modalSubt" class="modal-nav black"></div>
+                <img id="modalImg" class="modal-img" src="img/Portfolio1-big.svg" alt="Tonic">
+
+            </div>
+            <div class="modal-text toggle-body">
+            
+              <p id="modalDesc" class="toggle-p"></p>
+              
+            
+              <div class="modal-footer">
+                <ul id="modalTech" class="toggle-list-top "></ul>
+                <div class="btn-modal">
+                <button id="modalBtn1" type="button" class="btn-toggle">See Live &nbsp; <img class="icon" src="/img/liveIcon.svg" alt="Live"></button>
+                <button id="modalBtn2" type="button" class="btn-toggle">See Source &nbsp; <img class="icon" src="/img/sourceIcon.svg" alt="Source"></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
       <!--section 2 of the portfolio cards starts-->
-      <section class="sectiontemplate">
+      <!-- <section class="sectiontemplate">
         <img class="img1" src="img/Portfolio2.svg" alt="Availability Page" />
         <img class="imgd2" src="img/DesktopPortfolio2.svg" alt="Availability Page" />
         <div class="Section3Text">
@@ -119,9 +163,9 @@
           </ul>
           <button class="btn">See project</button>
         </div>
-      </section>
+      </section> -->
       <!--section 3 of the portfolio card starts-->
-      <section class="sectiontemplate">
+      <!-- <section class="sectiontemplate">
         <img class="img7" src="img/Portfolio3.svg" alt="Natural Tonic" />
         <img class="imgd3" src="img/DesktopPortfolio3.svg" alt="Natural Tonic" />
         <div class="SectionText">
@@ -142,9 +186,9 @@
           </ul>
           <button class="btn">See project</button>
         </div>
-      </section>
+      </section> -->
       <!--section 4 of the portfolio card starts-->
-      <section class="sectiontemplate3">
+      <!-- <section class="sectiontemplate3">
         <img class="img2" src="img/Portfolio4.svg" alt="Professional Art printing" />
         <img class="imgd3" src="img/DesktopPortfolio4.svg" alt="Professional Art Printing" />
         <div class="Section1Text">
@@ -166,7 +210,8 @@
           </ul>
           <button class="btn">See project</button>
         </div>
-      </section>
+      </section> -->
+      </div>
       <!--section 5 of the portfolio cards starts-->
       <section class="sectiondiv">
         <div class="body-text">
@@ -277,6 +322,9 @@
          </footer>
        </div>
   </section>
+  <div id="modal-box"></div>
+
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
