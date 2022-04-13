@@ -392,7 +392,7 @@ hr {
   padding-right: 2rem;
 }
 
-.imgd1 {
+img.imgd1 {
   display: none;
 }
 
@@ -726,9 +726,6 @@ img.imgprojecti {
   display: block;
 }
 
-
-
-
 @media screen and (min-width: 768px) {
   .close {
     display: none;
@@ -942,7 +939,6 @@ img.imgprojecti {
     margin-left: 2.5rem;
     font-size: 19px;
   }
-
 
   .pop-uptext {
     display: flex;

@@ -57,7 +57,6 @@ const projectCards = [
     source: 'https://github.com/ijeomaodinko/Portifolio-page',
   },
 
-
   {
     id: 4,
     img1: './img/Portfolio4.svg',
@@ -155,13 +154,13 @@ function popUpCard(card) {
       </section>
       <div>
  `;
- const box = document.getElementById('modal-box');
- box.appendChild(temp.content);
+  const box = document.getElementById('modal-box');
+  box.appendChild(temp.content);
 
- const closeWindow = document.getElementById('closepop');
- closeWindow.addEventListener('click', () => {
-   openWindow.style.display = 'none';
- });
+  const closeWindow = document.getElementById('closepop');
+  closeWindow.addEventListener('click', () => {
+    openWindow.style.display = 'none';
+  });
 }
 /* eslint-disable */;
 function openPopup(id) {
