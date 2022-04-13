@@ -29,6 +29,8 @@ description2 : `Lorem Ipsum is simply dummy text of the printing and typesetting
 description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 list2: ['html', 'css', 'javaScript'],
 btn: 'See Project',
+live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+source: 'https://github.com/ijeomaodinko/Portifolio-page',
 },
 
 {
@@ -40,6 +42,8 @@ list1: ['Canopy', 'Back End Dev', '2015'],
 description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 list2: ['html', 'css', 'javaScript'],
 btn: 'See Project',
+live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+source: 'https://github.com/ijeomaodinko/Portifolio-page',
 },
 
 {
@@ -51,6 +55,8 @@ list1: ['Canopy', 'Back End Dev', '2015'],
 description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 list2: ['html', 'css', 'javaScript'],
 btn: 'See Project',
+live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+source: 'https://github.com/ijeomaodinko/Portifolio-page',
 },
 
 {
@@ -62,6 +68,8 @@ list1: "['Canopy', 'Back End Dev', '2015']",
 description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
 list2: ['html', 'css', 'javaScript'],
 btn: 'See Project',
+live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+source: 'https://github.com/ijeoma/Portifolio-page',
 },
 ]
 
@@ -93,59 +101,67 @@ const portfolioCards = projectCards.map((sectiontemplate, index) =>  `
 const projectcardsbox = document.getElementById("projectcards")
 projectcardsbox.innerHTML += portfolioCards
 
-function popUpCard(card){
-    let temp = document.createElement('template')
+const openWindow =document.getElementById('modal-box');
+
+function popUpCard(card) {
+    let temp = document.createElement('template');
     temp.innerHTML=`
-    <!--pop-up for the mobile portfolio starts-->
+    // <!--pop-up for the mobile portfolio starts-->
     <div id="mymodal" class="modal">
       <section class="sectiontemplatepop-up">
         <div class="Sectionpop-up">
             <div class="popclose">
             <p class="h1m">Tonic</p>
             <span id="closepop">&times;</span>
-            </div>
+            </div> </br>
             <ul class="list1">
               <li class="can">Canopy</li>
               <li class="special">Back End Dev</li>
               <li class="special">2015</li>
             </ul>
-        <img class="img9" src="./img/DesktopPortfolioJavadom2.svg" alt="Natural Tonic" />
+            <div class="desktoptech">
+        <img class="imgm1"  src="${card.img1}" alt="Natural Tonic" />
+        <img class="imgdm1" src="${card.imgd1}" alt="Natural Tonic" />
         <div class="textpop">
         <p class="pop-uptext">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
-          <div class="desktoptech">
+          <p class="pop-uptexti">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <div class=listm>
           <ul class="list2">
             <li>html</li>
             <li>css</li>
             <li>javascript</li>
+          </ul>
+          <ul class="listo">
             <li>github</li>
             <li>rail</li>
             <li>bootstrape</li>
           </ul>
+          </div>
           <img class="imgproject1" src="./img/Devider.svg" alt="Line" />
           <div class="modalproject">
           <div class="project1">
-               <p class="seeproject"> See Live</p>  
+               <p class="seeprojecti"> See Live</p>  
                 <img class="imgproject" src="./img/Icon.svg" alt="See Live" />
           </div>
             <div class="project2">
                <p class="seeproject"> See Source</p> 
-              <div class=imgei> <img class="imgproject" src="img/Vector.svg" alt="See Source" /> </div>
+              <img class="imgprojecti" src="img/Vector.svg" alt="See Source" />
             </div>
         </div>
         </div>
           </div>
       </section>
-      <div>`;
+      <div>
+      `;
 
-      const box = document.getElementById('modal-box')
+      const box = document.getElementById('modal-box');
       box.appendChild(temp.content);
 
-// const box = document.getElementById('project');
-//     box.appendChild(temp.content);
-
-    const closeWindow = document.querySelector('.closepop');
+    const closeWindow = document.getElementById('closepop');
     closeWindow.addEventListener('click', () => {
       openWindow.style.display = 'none';
     });
@@ -154,7 +170,7 @@ function popUpCard(card){
 function openPopup(id){
 projectCards.find((card) => {
     if(Number(id) === Number(card.id))
-    popUpCard(card)
+    popUpCard(card);
     // document.querySelector('.sectiontemplatepop-up').classList.add('show-pop-up')
 })
 }
