@@ -16,68 +16,67 @@ closeMenu.addEventListener('click', () => {
 
 // to manupulate the cards in portfolio-page
 
-const listCards = document.querySelectorAll(".sectiontemplate");
+// const listCards = document.querySelectorAll('.sectiontemplate');
 const projectCards = [
 
-{
-id: 1,
-img1: './img/Portfolio1.svg',
-imgd1: './img/DesktopPortfolio1.svg',
-title: 'Facebook 360',
-list1: ['Canopy', 'Back End Dev', '2015'],
-description2 : `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-list2: ['html', 'css', 'javaScript'],
-btn: 'See Project',
-live: 'https://ijeomaodinko.github.io/Portifolio-page/',
-source: 'https://github.com/ijeomaodinko/Portifolio-page',
-},
+  {
+    id: 1,
+    img1: './img/Portfolio1.svg',
+    imgd1: './img/DesktopPortfolio1.svg',
+    title: 'Facebook 360',
+    list1: ['Canopy', 'Back End Dev', '2015'],
+    description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    list2: ['html', 'css', 'javaScript'],
+    btn: 'See Project',
+    live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+    source: 'https://github.com/ijeomaodinko/Portifolio-page',
+  },
 
-{
-id: 2,
-img1: './img/Portfolio2.svg',
-imgd1: './img/DesktopPortfolio2.svg',
-title: 'Uber Navigation',
-list1: ['Canopy', 'Back End Dev', '2015'],
-description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-list2: ['html', 'css', 'javaScript'],
-btn: 'See Project',
-live: 'https://ijeomaodinko.github.io/Portifolio-page/',
-source: 'https://github.com/ijeomaodinko/Portifolio-page',
-},
+  {
+    id: 2,
+    img1: './img/Portfolio2.svg',
+    imgd1: './img/DesktopPortfolio2.svg',
+    title: 'Uber Navigation',
+    list1: ['Canopy', 'Back End Dev', '2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    list2: ['html', 'css', 'javaScript'],
+    btn: 'See Project',
+    live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+    source: 'https://github.com/ijeomaodinko/Portifolio-page',
+  },
 
-{
-id: 3,
-img1: './img/Portfolio3.svg',
-imgd1: './img/DesktopPortfolio3.svg',
-title: 'Tonic',
-list1: ['Canopy', 'Back End Dev', '2015'],
-description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-list2: ['html', 'css', 'javaScript'],
-btn: 'See Project',
-live: 'https://ijeomaodinko.github.io/Portifolio-page/',
-source: 'https://github.com/ijeomaodinko/Portifolio-page',
-},
+  {
+    id: 3,
+    img1: './img/Portfolio3.svg',
+    imgd1: './img/DesktopPortfolio3.svg',
+    title: 'Tonic',
+    list1: ['Canopy', 'Back End Dev', '2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    list2: ['html', 'css', 'javaScript'],
+    btn: 'See Project',
+    live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+    source: 'https://github.com/ijeomaodinko/Portifolio-page',
+  },
 
-{
-id: 4,
-img1: './img/Portfolio4.svg',
-imgd1: './img/DesktopPortfolio4.svg',
-title: 'Multi-Post Stories',
-list1: "['Canopy', 'Back End Dev', '2015']",
-description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-list2: ['html', 'css', 'javaScript'],
-btn: 'See Project',
-live: 'https://ijeomaodinko.github.io/Portifolio-page/',
-source: 'https://github.com/ijeoma/Portifolio-page',
-},
-]
+  {
+    id: 4,
+    img1: './img/Portfolio4.svg',
+    imgd1: './img/DesktopPortfolio4.svg',
+    title: 'Multi-Post Stories',
+    list1: "['Canopy', 'Back End Dev', '2015']",
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    list2: ['html', 'css', 'javaScript'],
+    btn: 'See Project',
+    live: 'https://ijeomaodinko.github.io/Portifolio-page/',
+    source: 'https://github.com/ijeoma/Portifolio-page',
+  },
+];
 
-
-const portfolioCards = projectCards.map((sectiontemplate, index) =>  `
+const portfolioCards = projectCards.map((sectiontemplate) => `
 
 <section class="sectiontemplate">
-<img class="img1" src="${sectiontemplate.img1}" alt="Tanner Christerner" />
+<img class="imgi1" src="${sectiontemplate.img1}" alt="Tanner Christerner" />
 <img class="imgd1" src="${sectiontemplate.imgd1}" alt="Tanner Christerner" />
 <div class="Section2Text">
   <h2 class="face">${sectiontemplate.title}</h2>
@@ -98,14 +97,14 @@ const portfolioCards = projectCards.map((sectiontemplate, index) =>  `
 </section>
 
 `).join('');
-const projectcardsbox = document.getElementById("projectcards")
-projectcardsbox.innerHTML += portfolioCards
+const projectcardsbox = document.getElementById('projectcards');
+projectcardsbox.innerHTML += portfolioCards;
 
-const openWindow =document.getElementById('modal-box');
+const openWindow = document.getElementById('modal-box');
 
 function popUpCard(card) {
-    let temp = document.createElement('template');
-    temp.innerHTML=`
+  const temp = document.createElement('template');
+  temp.innerHTML = `
     // <!--pop-up for the mobile portfolio starts-->
     <div id="mymodal" class="modal">
       <section class="sectiontemplatepop-up">
@@ -158,40 +157,18 @@ function popUpCard(card) {
       <div>
       `;
 
-      const box = document.getElementById('modal-box');
-      box.appendChild(temp.content);
+  const box = document.getElementById('modal-box');
+  box.appendChild(temp.content);
 
-    const closeWindow = document.getElementById('closepop');
-    closeWindow.addEventListener('click', () => {
-      openWindow.style.display = 'none';
-    });
-  }
-
-function openPopup(id){
-projectCards.find((card) => {
-    if(Number(id) === Number(card.id))
-    popUpCard(card);
-    // document.querySelector('.sectiontemplatepop-up').classList.add('show-pop-up')
-})
+  const closeWindow = document.getElementById('closepop');
+  closeWindow.addEventListener('click', () => {
+    openWindow.style.display = 'none';
+  });
 }
-
-// function popData(card) {
-//   const temp = document.createElement('template');
-//   temp.innerHTML = ` `
-
-// const closePop = document.getElementById(close);
-// closePop.addEventListener('click', () => {
-//   box.style.display = 'none';
-//   }); 
-
-// const cancelPop =document.getElementById("closepop");
-// cancelPop.addEventListener("click", cancelPopOut);
-// function cancelPopOut(e){
-//   e.preventDefault();
-//   document.querySelector("modal").style.display="none"
-// // }
-
-// const cancelPop = document.querySelector('.closepop');
-// cancelPop.addEventListener ('click', () => {
-//   mymodal.style.display ='none'
-// })
+/* eslint-disable */;
+function openPopup(id) {
+  projectCards.find((card) => {
+    if (Number(id) === Number(card.id)) popUpCard(card);
+    // document.querySelector('.sectiontemplatepop-up').classList.add('show-pop-up')
+  });
+}
