@@ -4,6 +4,8 @@
   "description": "> This is a project to display \"Micro-Version-SKeleton of POrtfolio-Page\". This content's Mobile-Version-SKeleton of POrtfolio-Page html tag, style.css, linters and readme.md files.",
   "main": "index.js",
   "dependencies": {
+    "alert": "^5.0.10",
+    "npm-check-updates": "^12.5.9",
     "postcss": "^8.4.12"
   },
   "devDependencies": {
@@ -11,7 +13,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
     "hint": "^6.1.11",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",

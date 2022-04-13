@@ -712,7 +712,7 @@ ul.list2 {
 }
 
 .imgprojecti {
-  display: flex;
+  display: block;
   width: 16px;
   margin-left: 0.03px;
 }
@@ -883,7 +883,7 @@ img.imgprojecti {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 778px) {
   .h1m {
     display: flex;
     color: #172b4d;
@@ -891,6 +891,7 @@ img.imgprojecti {
     font-weight: 600;
     margin-top: auto;
     margin-bottom: 0.5rem;
+    margin-left: 2rem;
   }
 
   #closepop {
@@ -1007,7 +1008,7 @@ img.imgprojecti {
   }
 
   .imgprojecti {
-    display: flex;
+    display: block;
     width: 15%;
   }
 
