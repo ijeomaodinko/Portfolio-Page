@@ -157,10 +157,17 @@ function popUpCard(card) {
   box.appendChild(temp.content);
 
   const closeWindow = document.getElementById('closepop');
-  closeWindow.addEventListener('click', () => {
-    openWindow.style.display = 'none';
+  
+  const blurProjects = document.querySelectorAll('#myModal > div');
+
+     closeWindow.addEventListener("click", () => {
+     openWindow.remove();
+    document.body.classList.toggle("no-scroll");
+    document.body.style.background = "#fff";
+    blurProjects.forEach((project) => project.classList.toggle("blur"));
   });
-}
+  }
+  
 /* eslint-disable */;
 function openPopup(id) {
  projectCards.find((card) => {
