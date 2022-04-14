@@ -14,7 +14,6 @@ closeMenu.addEventListener('click', () => {
   popUp.style.display = 'none';
 });
 
-// const listCards = document.querySelectorAll('.sectiontemplate');
 const projectCards = [
 
   {
@@ -109,7 +108,7 @@ function popUpCard(card) {
         <div class="Sectionpop-up">
             <div class="popclose">
             <p class="h1m">Tonic</p>
-            <span id="closepop">&times;</span>
+            <span id="closepop" onClick="document.location.reload(true)" >&times;</span>
             </div> </br>
             <ul class="list1">
               <li class="can">Canopy</li>
@@ -166,11 +165,5 @@ function popUpCard(card) {
 function openPopup(id) {
  projectCards.find((card) => {
    if (Number(id) === Number(card.id)) popUpCard(card);
-   // document.querySelector('.sectiontemplatepop-up').classList.add('show-pop-up')
  });
 }
-
-
-
-
-

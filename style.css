@@ -26,8 +26,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  /* position: fixed; */
   top: 0;
   width: 100%;
   background-color: white;
@@ -531,8 +529,6 @@ button:hover {
 .imgf {
   display: flex;
   justify-content: center;
-
-  /* margin: 0 0 0 1rem; */
 }
 
 .form1 {
@@ -550,8 +546,6 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-/* mobile-menu */
-
 .pop-up {
   display: flex;
   background-color: rgba(52, 65, 161, 0.8);
@@ -559,8 +553,6 @@ button:hover {
   right: 0;
   top: 0;
   bottom: 0;
-
-  /* mix-blend-mode: multiply; */
   flex-direction: column;
   position: absolute;
   color: #fff;
@@ -669,8 +661,6 @@ ul.list2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   width: 121px;
-
-  /* height: 39px; */
 }
 
 .project2 {
@@ -679,14 +669,8 @@ ul.list2 {
   border: 1px solid #6070ff;
   border-radius: 0.5rem;
   padding-left: 0.5rem;
-
-  /* padding-top: 0.3rem; */
-
-  /* padding-bottom: -0.3rem; */
   width: 150px;
   height: 50px;
-
-  /* height: fit-content; */
 }
 
 .modalproject {
@@ -953,8 +937,6 @@ img.imgprojecti {
   }
 
   .listo li {
-    /* display: flex;
-    flex-direction: row; */
     padding: 0.3rem 0.6rem;
     margin: 0.5rem 0.6rem 0 0;
     border: 2px solid #dadbff;
