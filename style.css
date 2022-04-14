@@ -584,7 +584,8 @@ form {
   border-radius: 8px;
   font-weight: 600;
   width: 140px;
-  height: 48px;
+  height: 49px;
+  margin-top: 42px;
 }
 
 .form-btn:hover {
@@ -632,6 +633,13 @@ button:hover {
   border: 1px;
   border-color: #cfd8dc;
   padding: 8px;
+}
+
+/* error message */
+
+#email-error {
+  margin-top: 155px;
+  position: absolute;
 }
 
 .imgf {
@@ -886,7 +894,7 @@ button:hover {
 
   .form-btn {
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 31px auto 0 auto;
   }
 
   .sectionf { order: 7; }
