@@ -156,7 +156,7 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-// Local storage function 
+// Local storage function
 
 const nameInput = document.getElementById('username');
 const emailInput = document.getElementById('email');
