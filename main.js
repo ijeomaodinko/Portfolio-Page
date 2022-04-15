@@ -156,7 +156,7 @@ contactForm.addEventListener('submit', (e) => {
   }
 });
 
-// Portfolio to store data in a browser
+// Local storage function 
 
 const nameInput = document.getElementById('username');
 const emailInput = document.getElementById('email');
@@ -182,6 +182,8 @@ emailInput.addEventListener('input', () => {
 textInput.addEventListener('input', () => {
   storeFormDataLocally();
 });
+
+// Event listner function
 
 window.addEventListener('load', () => {
   const data = localStorage.getItem('formData');
