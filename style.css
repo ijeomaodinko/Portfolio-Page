@@ -30,7 +30,8 @@ label {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+
+  /* position: fixed; */
   top: 0;
   width: 100%;
   background-color: white;
@@ -77,6 +78,134 @@ h1 {
 
 .about {
   margin: 2rem 0 0 4rem;
+}
+
+.up-menu a {
+  color: #fff;
+}
+
+.toggle-list-top li,
+.toggle-list-bottom li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #949eff;
+  border: 1px solid #dadbff;
+  border-radius: 0.5rem;
+  padding: 0 0.3rem;
+  margin: 1rem 0.3rem 0 0;
+  background-color: #ebebff;
+}
+
+.modal {
+  opacity: 1;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #888;
+  height: auto;
+  width: 65%;
+}
+
+.modal-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-img {
+  width: 95%;
+  height: auto;
+  margin-top: -3.5rem;
+}
+
+.toggle-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.toggle-p {
+  max-width: 100%;
+  margin: 1rem 0 1rem 0.5rem;
+}
+
+.toggle-text-top h1 {
+  margin-left: 1rem;
+}
+
+.toggle-list-top {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.toggle-list-bottom {
+  display: none;
+}
+
+.btn-toggle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: #7f8cff;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  background-color: #f7f7f9;
+  margin: 2rem 0 0 0;
+  width: 12rem;
+}
+
+.dflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-bottom: 4rem;
+  line-height: 3rem;
+}
+
+.black {
+  color: #344563;
+  padding: 0 0 0 0.2rem;
+  font-weight: 800;
+}
+
+.gray {
+  color: #7a869a;
+  padding: 0 1rem;
+}
+
+#modalTitle {
+  margin: 0.5rem 0 0 0.3rem;
+}
+
+.xp {
+  font-weight: 900;
+  font-size: xx-large;
+  cursor: pointer;
 }
 
 .image ul {
@@ -459,7 +588,8 @@ form {
   border-radius: 8px;
   font-weight: 600;
   width: 140px;
-  height: 48px;
+  height: 49px;
+  margin-top: 42px;
 }
 
 .form-btn:hover {
@@ -509,10 +639,18 @@ button:hover {
   padding: 8px;
 }
 
+/* error message */
+
+#email-error {
+  margin-top: 155px;
+  position: absolute;
+}
+
 .imgf {
   display: flex;
   justify-content: center;
-  margin: 0 0 0 6rem;
+
+  /* margin: 0 0 0 1rem; */
 }
 
 .form1 {
@@ -530,7 +668,105 @@ button:hover {
   margin-bottom: 1rem;
 }
 
+/* mobile-menu */
+
+.pop-up {
+  display: flex;
+  background-color: rgba(52, 65, 161, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  /* mix-blend-mode: multiply; */
+  flex-direction: column;
+  position: absolute;
+  color: #fff;
+  gap: 25px;
+  padding-left: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  list-style: none;
+  line-height: 44px;
+}
+
+.close {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 3.5rem;
+  padding-left: 260px;
+  color: #f5f0f0;
+  margin-top: 16px;
+}
+
 @media screen and (min-width: 768px) {
+  .btn-toggle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.7rem;
+    height: 2rem;
+  }
+
+  .btn-modal {
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+  }
+
+  .modal-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -3rem;
+  }
+
+  .toggle-body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toggle-list-top {
+    margin-bottom: 1rem;
+  }
+
+  .toggle-p {
+    max-width: 80%;
+    margin: 1rem 1rem;
+  }
+
+  .toggle-list-bottom {
+    display: block;
+    display: flex;
+  }
+
+  #modalTitle {
+    margin: 0.5rem 0 0 -0.3rem;
+  }
+
+  .modal-nav {
+    margin-left: 0.1rem;
+  }
+
+  .icon {
+    display: flex;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .up-menu a {
+    color: #344563;
+  }
+
   .list {
     display: flex;
     list-style: none;
@@ -662,7 +898,7 @@ button:hover {
 
   .form-btn {
     display: block;
-    margin: 0 auto 0 auto;
+    margin: 31px auto 0 auto;
   }
 
   .sectionf { order: 7; }

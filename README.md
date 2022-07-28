@@ -25,9 +25,13 @@ Website:  https://ijeomaodinko.github.io/Portfolio-Page/
 
 ## Author
 👤 **Ijeoma Odinko**
+   **Emmanuel moombe**
+
 - GitHub: [@ijeomaese](https://github.com/ijeomaese)
 - Twitter: [@iodinko](https://twitter.com/Iodinko)
 - LinkedIn: [Ijeoma Odinko](https://www.linkedin.com/in/ijeoma-odinko)
+- GitHub: [@medsonmoombe](https://github.com/medsonmoombe)
+- Twitter: [@emmanue78388405](https://twitter.com/@emmanue78388405)
 
 
 ## 🤝 Contributing
