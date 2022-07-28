@@ -9,6 +9,10 @@ body {
   font-family: sans-serif;
 }
 
+label {
+  display: none;
+}
+
 #elaborate {
   background-image: url(img/header-shapes-mobile.svg);
   background-repeat: no-repeat;
@@ -67,7 +71,7 @@ h1 {
 
 .about a {
   text-decoration: none;
-  color: #7f8cff;
+  color: #172b4d;
   font-size: 18px;
   font-weight: 600;
 }
@@ -224,7 +228,7 @@ h1 {
   list-style: none;
   font-size: 12px;
   font-weight: bolder;
-  color: #6070ff;
+  color: #172b4d;
 }
 
 .list3 li {
@@ -236,12 +240,12 @@ h1 {
   list-style: none;
   font-size: 12px;
   font-weight: bolder;
-  color: #6070ff;
+  color: #172b4d;
 }
 
 .let-connect a {
   text-decoration: none;
-  color: #7f8cff;
+  color: #172b4d;
   font-size: 18px;
   font-weight: 600;
 }
@@ -259,11 +263,11 @@ h1 {
 .image ul li {
   margin-right: 2rem;
   font-size: 2rem;
-  color: #505f79;
+  color: #01050a;
 }
 
 .image ul li a {
-  color: #505f79;
+  color: #000203;
 }
 
 .sectiontemplate {
@@ -326,7 +330,7 @@ h1 {
 }
 
 .special {
-  color: #7a869a;
+  color: #0e0f0f;
 }
 
 .can {
@@ -334,7 +338,7 @@ h1 {
 }
 
 p {
-  color: #344563;
+  color: #0e0e0f;
   margin-top: 1rem;
   line-height: 2rem;
   font-size: 19px;
@@ -348,7 +352,7 @@ p {
   border-radius: 0.5rem;
   font-size: 16px;
   font-weight: bolder;
-  color: #6070ff;
+  color: #09090a;
   background-color: #fff;
 }
 
@@ -565,7 +569,7 @@ hr {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  color: #fff;
+  color: rgb(15, 14, 14);
   text-align: center;
   margin: 0 0 0 26px;
   margin-bottom: 14px;
@@ -581,7 +585,7 @@ form {
 
 .form-btn {
   padding: 1em;
-  color: #6070ff;
+  color: #030405;
   border-radius: 8px;
   font-weight: 600;
   width: 140px;
