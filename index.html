@@ -17,7 +17,9 @@
       <nav class="nav1">
         <img class="union"  id="pop" src="img/Union.svg" alt="My logo" />
 
+
   <!-- Menu mobile popup -->
+
         <ul class="list up-menu">
           <li class="close">
             &times;
@@ -32,10 +34,6 @@
             <a href="#Contact">Contact</a>
           </li>
         </ul>
-
-
-
-
       </nav>
     </header>
     <main id="portfolio">
@@ -102,9 +100,39 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn1">See project</button>
         </div>
       </section>
+      <div id="myModal" class="modal">
+        <div class="modal-container">
+          <div class="modal-content">
+            <div class="modal-title">
+              <div class="dflex">
+                <h1 id="modalTitle">Title</h1>
+
+                <span class="xp">&times;</span>
+                </div>
+
+              <div id="modalSubt" class="modal-nav black"></div>
+                <img id="modalImg" class="modal-img" src="img/Portfolio1-big.svg" alt="Tonic">
+
+            </div>
+            <div class="modal-text toggle-body">
+            
+              <p id="modalDesc" class="toggle-p"></p>
+              
+            
+              <div class="modal-footer">
+                <ul id="modalTech" class="toggle-list-top "></ul>
+                <div class="btn-modal">
+                <button id="modalBtn1" type="button" class="btn-toggle">See Live &nbsp; <img class="icon" src="/img/liveIcon.svg" alt="Live"></button>
+                <button id="modalBtn2" type="button" class="btn-toggle">See Source &nbsp; <img class="icon" src="/img/sourceIcon.svg" alt="Source"></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--section 2 of the portfolio cards starts-->
       <section class="sectiontemplate">
         <img class="img1" src="img/Portfolio2.svg" alt="Availability Page" />
@@ -126,7 +154,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn2">See project</button>
         </div>
       </section>
       <!--section 3 of the portfolio card starts-->
@@ -149,7 +177,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn3">See project</button>
         </div>
       </section>
       <!--section 4 of the portfolio card starts-->
@@ -173,7 +201,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn4">See project</button>
         </div>
       </section>
       <!--section 5 of the portfolio cards starts-->
@@ -223,7 +251,7 @@
         <div class="last-div">
           <ul class="last-icons">
             <li class="lang">Languages</li>
-            <li><img class="img4" src="img/up-brace.svg" alt="arrow" /></li>
+            <li><img class="img4" src="img/up-brace.svg" alt="right arrow" /></li>
           </ul>
           <div class="icon-flex">
             <ul class="languages">
@@ -247,12 +275,12 @@
           </div>
           <ul class="frame-right">
             <li class="frame">Frameworks</li>
-            <li><img class="img3" src="img/right-brace.svg" alt="arrow" /></li>
+            <li><img class="img3" src="img/right-brace.svg" alt="right arrow" /></li>
           </ul>
           <hr />
           <ul class="skill-right">
             <li class="skill">Skills</li>
-            <li><img class="img5" src="img/right-brace.svg" alt="arrow" /></li>
+            <li><img class="img5" src="img/right-brace.svg" alt="right-brace" /></li>
           </ul>
           <hr />
         </div>
@@ -265,16 +293,20 @@
           a feature that you need built or a project that needs 
           coding. I'd love to help with it</p><br>
           <br>
-          <form action="https://formspree.io/f/meqnzbev" target="_blank" method="post">
+          <form action="https://formspree.io/f/meqnzbev" target="_blank" method="post" id="contact-form">
             <ul>
               <li class="form1">
-                <input id="username" type="text" class="username" name="username" maxlength="30"   placeholder="Full Name" required>
+                <label for="Username">Username</label>
+                <input id="Username" type="text" class="username" name="username" maxlength="30"   placeholder="Full Name" required>
               </li>
             <li class="form2">
-                <input id="email" class="email" type="email" name="email"  placeholder="E-mail Id" required>
+                <label for="Email">Email</label>
+                <input id="Email" class="email" type="email" name="email"  placeholder="E-mail Id" required>
             </li>
             <li class="form3">
-              <textarea name="message" placeholder="write your message here" class="textarea" maxlength="500"  id="message" cols="30" rows="10" required></textarea>
+            Portifolio-Page-Accessibility
+              <label for="Message">Message</label>
+              <textarea name="Message" placeholder="write your message here" class="textarea" maxlength="500"  id="Message" cols="30" rows="10" required></textarea>
             </li>
             </ul>
             <input type="submit" class="form-btn" value="Get It Touch" >
