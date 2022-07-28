@@ -152,7 +152,7 @@ contactForm.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     messageError.innerText = 'Your message was not sent, you need to have the email address, all in small letters';
-    messageError.style.fontSize = '17px';
+    messageError.style.fontSize = '15px';
   }
 });
 
