@@ -113,7 +113,7 @@ h1 {
   padding: 20px;
   border: 1px solid #888;
   height: auto;
-  width: 65%;
+  width: 91%;
 }
 
 .modal-title {
@@ -140,6 +140,7 @@ h1 {
 
 .toggle-p {
   max-width: 100%;
+  width: 398px;
   margin: 1rem 0 1rem 0.5rem;
 }
 
@@ -731,6 +732,7 @@ button:hover {
 
   .toggle-p {
     max-width: 80%;
+    width: 91%;
     margin: 1rem 1rem;
   }
 
@@ -753,6 +755,10 @@ button:hover {
 
   li {
     list-style: none;
+  }
+
+  .modal-content {
+    width: 85%;
   }
 
   .close {
