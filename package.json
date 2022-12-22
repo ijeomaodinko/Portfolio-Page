@@ -1,10 +1,11 @@
 {
   "name": "Portfolio-Page",
   "version": "1.0.0",
-  "description": "> This is a project to display \"Micro-Version-SKeleton of POrtfolio-Page\". This content's Mobile-Version-SKeleton of POrtfolio-Page html tag, style.css, linters and readme.md files.",
+  "description": "Website:  https://ijeomaodinko.github.io/Portfolio-Page/",
   "main": "index.js",
   "dependencies": {
-    "postcss": "^8.4.12"
+    "@hint/connector-local": "^3.2.16",
+    "fsevents": "^2.3.2"
   },
   "devDependencies": {
     "@hint/connector-local": "^3.2.16",
@@ -23,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ijeomaese/Portfolio-Page.git"
+    "url": "git+https://github.com/ijeomaodinko/Portfolio-Page.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ijeomaese/Portfolio-Page/issues"
+    "url": "https://github.com/ijeomaodinko/Portfolio-Page/issues"
   },
-  "homepage": "https://github.com/ijeomaese/Portfolio-Page#readme"
+  "homepage": "https://github.com/ijeomaodinko/Portfolio-Page#readme"
 }
