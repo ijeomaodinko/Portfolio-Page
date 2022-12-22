@@ -8,6 +8,8 @@
     "fsevents": "^2.3.2"
   },
   "devDependencies": {
+
+    "@hint/connector-local": "^3.2.16",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
