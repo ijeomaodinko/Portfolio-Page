@@ -18,6 +18,8 @@
       <nav class="nav1">
         <img class="union"  id="pop" src="img/Union.svg" alt="My logo" />
 
+  <!-- Menu mobile popup -->
+
 
         <ul class="list up-menu">
           <li class="close">
@@ -106,11 +108,15 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn1">See project</button>
         </div>
-      </section> -->
+
       <!-- section for the modal card starts -->
       <!-- <div id="myModal" class="modal">
+
+      </section>
+      <div id="myModal" class="modal">
+
         <div class="modal-container">
           <div class="modal-content">
             <div class="modal-title">
@@ -139,7 +145,11 @@
             </div>
           </div>
         </div>
+
       </div> -->
+
+      </div>
+
       <!--section 2 of the portfolio cards starts-->
       <!-- <section class="sectiontemplate">
         <img class="img1" src="img/Portfolio2.svg" alt="Availability Page" />
@@ -161,7 +171,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn2">See project</button>
         </div>
       </section> -->
       <!--section 3 of the portfolio card starts-->
@@ -184,7 +194,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn3">See project</button>
         </div>
       </section> -->
       <!--section 4 of the portfolio card starts-->
@@ -208,12 +218,12 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button class="btn">See project</button>
+          <button class="btn" id="myBtn4">See project</button>
         </div>
       </section> -->
       </div>
       <!--section 5 of the portfolio cards starts-->
-      <section class="sectiondiv">
+      <section id="About" class="sectiondiv">
         <div class="body-text">
           <h2 class="big-text">About Myself</h2>
           <p class="b-text">
@@ -259,7 +269,7 @@
         <div class="last-div">
           <ul class="last-icons">
             <li class="lang">Languages</li>
-            <li><img class="img4" src="img/up-brace.svg" alt="arrow" /></li>
+            <li><img class="img4" src="img/up-brace.svg" alt="right arrow" /></li>
           </ul>
           <div class="icon-flex">
             <ul class="languages">
@@ -283,34 +293,38 @@
           </div>
           <ul class="frame-right">
             <li class="frame">Frameworks</li>
-            <li><img class="img3" src="img/right-brace.svg" alt="arrow" /></li>
+            <li><img class="img3" src="img/right-brace.svg" alt="right arrow" /></li>
           </ul>
           <hr />
           <ul class="skill-right">
             <li class="skill">Skills</li>
-            <li><img class="img5" src="img/right-brace.svg" alt="arrow" /></li>
+            <li><img class="img5" src="img/right-brace.svg" alt="right-brace" /></li>
           </ul>
           <hr />
         </div>
       </section>
       <!--section form of the portfolio cards starts-->
-    <section class="sectionf">
+    <section id= "Contact" class="sectionf">
       <div class="SectionfText">
         <h1 class="frm">Contact me</h1>
         <p class="center"> If you have application you are interested in developing,
           a feature that you need built or a project that needs 
           coding. I'd love to help with it</p><br>
           <br>
-          <form action="https://formspree.io/f/meqnzbev" target="_blank" method="post">
+          <form action="https://formspree.io/f/meqnzbev" target="_blank" method="post" id="contact-form">
             <ul>
               <li class="form1">
-                <input id="username" type="text" class="username" name="username" maxlength="30"   placeholder="Full Name" required>
+                <label for="Username">Username</label>
+                <input id="Username" type="text" class="username" name="username" maxlength="30"   placeholder="Full Name" required>
               </li>
             <li class="form2">
-                <input id="email" class="email" type="email" name="email"  placeholder="E-mail Id" required>
+                <label for="Email">Email</label>
+                <input id="Email" class="email" type="email" name="email"  placeholder="E-mail Id" required>
             </li>
             <li class="form3">
-              <textarea name="message" placeholder="write your message here" class="textarea" maxlength="500"  id="message" cols="30" rows="10" required></textarea>
+            Portifolio-Page-Accessibility
+              <label for="Message">Message</label>
+              <textarea name="Message" placeholder="write your message here" class="textarea" maxlength="500"  id="Message" cols="30" rows="10" required></textarea>
             </li>
             </ul>
             <input type="submit" class="form-btn" value="Get It Touch" >
@@ -324,6 +338,9 @@
   </section>
   <div id="modal-box"></div>
     </main>
+
     <script src="index.js"></script>
+    <script src="main.js"></script>
+
   </body>
 </html>
