@@ -4,6 +4,9 @@
   "description": "Website:  https://ijeomaodinko.github.io/Portfolio-Page/",
   "main": "index.js",
   "dependencies": {
+    "alert": "^5.0.10",
+    "npm-check-updates": "^12.5.9",
+    "postcss": "^8.4.12"
     "@hint/connector-local": "^3.2.16",
     "fsevents": "^2.3.2"
   },
