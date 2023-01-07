@@ -9,6 +9,8 @@ body {
   font-family: sans-serif;
 }
 
+
+.img1, 
 label {
   display: none;
 }
@@ -292,13 +294,6 @@ h1 {
   border-radius: 50px;
 }
 
-.img1 {
-  display: block;
-  margin: auto auto 0 auto;
-  width: 90%;
-  padding-top: 2rem;
-}
-
 .imgi1 {
   display: block;
   margin: auto auto 0 auto;
@@ -320,6 +315,10 @@ h1 {
 .imgdm1 {
   display: none;
 }
+
+/* #closepop {
+  display: flex;
+} */
 
 .img7 {
   display: block;
@@ -842,7 +841,6 @@ img.imgprojecti {
 .textpop {
   display: block;
 }
-
 .no-scroll {
   overflow: hidden;
 }
@@ -999,6 +997,10 @@ img.imgprojecti {
     padding: 1rem 0 1rem 1rem;
   }
 
+  .imgi1 {
+    display: none;
+  }
+
   .img1,
   .img2 {
     display: none;
@@ -1065,7 +1067,7 @@ img.imgprojecti {
   }
 }
 
-@media screen and (min-width: 778px) {
+@media screen and (min-width: 768px) {
   .h1m {
     display: flex;
     color: #172b4d;
@@ -1108,7 +1110,6 @@ img.imgprojecti {
   .imgi1 {
     display: none;
   }
-
   .imgm1 {
     display: none;
   }
